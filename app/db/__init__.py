@@ -23,10 +23,10 @@ def get_db():
   if 'db' not in g:
     # store db connection in app context
     g.db = Session()
+
+  return g.db
 def close_db(e=None):
   db = g.pop('db', None)
 
   if db is not None:
     db.close()
-
-  return g.db
