@@ -20,11 +20,11 @@ db.commit()
 
 # insert posts
 db.add_all([
-  Post(title='Donec posuere metus vitae ipsum', post_url='https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png', user_id=1),
-  Post(title='Morbi non quam nec dui luctus rutrum', post_url='https://nasa.gov/donec.json', user_id=1),
-  Post(title='Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue', post_url='https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx', user_id=2),
-  Post(title='Nunc purus', post_url='http://desdev.cn/enim/blandit/mi.jpg', user_id=3),
-  Post(title='Pellentesque eget nunc', post_url='http://google.ca/nam/nulla/integer.aspx', user_id=4)
+  Post(title='Donec posuere metus vitae ipsum', post_url='https://techcrunch.com/?guccounter=1', user_id=1),
+  Post(title='Morbi non quam nec dui luctus rutrum', post_url='https://www.wired.com/', user_id=1),
+  Post(title='Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue', post_url='https://mashable.com/', user_id=2),
+  Post(title='Nunc purus', post_url='https://www.businessinsider.com/tech', user_id=3),
+  Post(title='Pellentesque eget nunc', post_url='https://hackernoon.com/', user_id=4)
 ])
 
 db.commit()
